@@ -86,15 +86,15 @@ window.onload = function () {
     game.stage.backgroundColor = '#5db1ad';
     
     //Load images
-    game.load.image('platform', '/images/platform_1.png');
-    game.load.image('platform2', '/images/platform_2.png');
+    game.load.image('platform', './images/platform_1.png');
+    game.load.image('platform2', './images/platform_2.png');
     
     //Load spritesheets
-    game.load.spritesheet('player', '/images/chalkers.png', 48, 62);
-    game.load.spritesheet('coin', '/images/coin.png', 36, 44);
-    game.load.spritesheet('badge', '/images/badge.png', 42, 54);
-    game.load.spritesheet('poison', '/images/poison.png', 32, 32);
-    game.load.spritesheet('star', '/images/star.png', 32, 32);
+    game.load.spritesheet('player', './images/chalkers.png', 48, 62);
+    game.load.spritesheet('coin', './images/coin.png', 36, 44);
+    game.load.spritesheet('badge', './images/badge.png', 42, 54);
+    game.load.spritesheet('poison', './images/poison.png', 32, 32);
+    game.load.spritesheet('star', './images/star.png', 32, 32);
   }
 
   // initial game set up
